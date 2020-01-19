@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Khoren Mansuryan</Authors>
+    <Company>Khoren Mansuryan</Company>
+    <Description>Package uses three different ways to check server availability. (HHP, ICMP, TCP</Description>
+    <AssemblyVersion>1.0.0.4</AssemblyVersion>
+    <Version>1.0.0.4</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>PingPongCore</PackageId>
+    <PackageLicenseExpression>MS-PL</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.9.0" />
+    <PackageReference Include="Serilog.Sinks.ColoredConsole" Version="3.0.1" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
+  </ItemGroup>
+
+</Project>
